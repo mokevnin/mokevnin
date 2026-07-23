@@ -25,16 +25,13 @@
   <a href="https://github.com/mokevnin/dotfiles">
     <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=dotfiles&theme=transparent" alt="dotfiles" />
   </a>
-  <a href="https://github.com/mokevnin/you-don-t-know-oop">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=you-don-t-know-oop&theme=transparent" alt="you-don-t-know-oop" />
+  <a href="https://github.com/mokevnin/1mail">
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=1mail&theme=transparent" alt="1mail" />
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/mokevnin/railsify">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=railsify&theme=transparent" alt="railsify" />
-  </a>
-  <a href="https://github.com/mokevnin/ipgeobase">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=ipgeobase&theme=transparent" alt="ipgeobase" />
+  <a href="https://github.com/mokevnin/agentic-coding-design-patterns">
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=agentic-coding-design-patterns&theme=transparent" alt="agentic-coding-design-patterns" />
   </a>
 </p>
 
