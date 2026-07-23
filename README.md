@@ -7,7 +7,6 @@
 [![YouTube](https://img.shields.io/badge/YouTube-mokevnin-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@mokevnin)
 [![Telegram](https://img.shields.io/badge/Telegram-Organized_Programming-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/orgprog)
 [![X](https://img.shields.io/badge/X-mokevnin-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mokevnin)
-[![Hexlet](https://img.shields.io/badge/Hexlet-hexlet.io-116EF5?style=for-the-badge)](https://hexlet.io)
 
 </div>
 
