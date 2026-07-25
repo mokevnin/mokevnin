@@ -18,22 +18,6 @@
   </a>
 </p>
 
-## 📌 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/mokevnin/dotfiles">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=dotfiles&theme=transparent" alt="dotfiles" />
-  </a>
-  <a href="https://github.com/mokevnin/1mail">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=1mail&theme=transparent" alt="1mail" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/mokevnin/agentic-coding-design-patterns">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=mokevnin&repo=agentic-coding-design-patterns&theme=transparent" alt="agentic-coding-design-patterns" />
-  </a>
-</p>
-
 ## 📊 Stats
 
 <p align="center">
