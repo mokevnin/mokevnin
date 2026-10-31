@@ -2,7 +2,7 @@
 
 # Hi, I'm Kirill Mokevnin 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Co-founder+of+Hexlet;Author+of+Organized+Programming;Teaching+people+to+code+since+2012&font=Fira+Code&center=true&vCenter=true&width=500&height=45&size=20&pause=1000&color=36BCF7)](https://hexlet.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Co-founder+of+Hexlet;Author+of+Organized+Programming;Teaching+people+to+code+since+2012;Building+quality+gates+for+agentic+coding&font=Fira+Code&center=true&vCenter=true&width=560&height=45&size=20&pause=1000&color=36BCF7)](https://hexlet.io)
 
 [![YouTube](https://img.shields.io/badge/YouTube-mokevnin-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@mokevnin)
 [![Telegram](https://img.shields.io/badge/Telegram-Organized_Programming-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/orgprog)
@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/mokevnin">
-    <img src="https://skillicons.dev/icons?i=ruby,rails,js,ts,nodejs,react,postgres,redis,docker,ansible,neovim,linux" alt="Ruby, Rails, JavaScript, TypeScript, Node.js, React, PostgreSQL, Redis, Docker, Ansible, Neovim, Linux" />
+    <img src="https://skillicons.dev/icons?i=ts,js,go,rust,python,ruby,rails,nodejs,react,postgres,docker,githubactions,lua,neovim,linux" alt="TypeScript, JavaScript, Go, Rust, Python, Ruby, Rails, Node.js, React, PostgreSQL, Docker, GitHub Actions, Lua, Neovim, Linux" />
   </a>
 </p>
 
