@@ -1,0 +1,47 @@
+name: mise upgrade
+
+# Dependabot does not support mise, so tool versions in mise.toml are bumped
+# here and merged the same way as Dependabot updates: auto-merge after "check".
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mise-upgrade
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    env:
+      BRANCH: mise-upgrade
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: jdx/mise-action@6612f0ef07ed2a736cd1e00a94a065522dd41195 # v5.2.5
+      - run: mise upgrade --bump
+      - name: Open pull request with auto-merge
+        run: |
+          if git diff --quiet; then
+            echo "Tools are up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git commit -am "Bump mise tools"
+          git push --force origin "$BRANCH"
+          if ! gh pr view "$BRANCH" --json state --jq .state | grep -q OPEN; then
+            gh pr create --head "$BRANCH" --title "Bump mise tools" --body "$(git diff HEAD~1 -- mise.toml)"
+          fi
+          # Pushes made with GITHUB_TOKEN do not trigger workflows; dispatch CI explicitly.
+          gh workflow run ci.yml --ref "$BRANCH"
+          gh pr merge --auto --squash "$BRANCH"
