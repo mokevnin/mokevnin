@@ -1,0 +1,33 @@
+# Toolchain and checks for this repository. CI runs the same tasks.
+# Versions are bumped weekly by .github/workflows/mise-upgrade.yml.
+
+[settings]
+# Same cooldown as Dependabot: skip releases younger than a week.
+minimum_release_age = "7d"
+
+[tools]
+"aqua:jdx/jactionlint" = "2.4.0"
+lychee = "0.24.2"
+rumdl = "0.3.2"
+typos = "1.51.1"
+
+[tasks.check]
+description = "Run every offline check (CI gate)"
+depends = ["lint:*"]
+
+[tasks."lint:markdown"]
+run = "rumdl check ."
+
+[tasks."lint:spelling"]
+run = "typos"
+
+[tasks."lint:actions"]
+run = "jactionlint"
+
+[tasks.links]
+description = "Check external links (needs network; scheduled in CI)"
+run = "lychee --no-progress README.md"
+
+[tasks.fix]
+description = "Apply safe autofixes"
+run = ["rumdl fmt .", "typos --write-changes"]

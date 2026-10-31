@@ -1,0 +1,7 @@
+# GitHub profile READMEs center blocks with HTML; Markdown has no equivalent.
+[MD033]
+allowed-elements = ["div", "p", "a", "img"]
+
+[per-file-ignores]
+# The heading sits inside the centered <div>, so the first line is HTML.
+"README.md" = ["MD041"]
