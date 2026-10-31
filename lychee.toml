@@ -1,0 +1,2 @@
+# x.com answers 403 to requests from CI runners; the profile link is valid.
+exclude = ['^https://x\.com/mokevnin$']
