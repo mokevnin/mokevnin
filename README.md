@@ -2,7 +2,7 @@
 
 # Hi, I'm Kirill Mokevnin 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Co-founder+of+Hexlet;Author+of+Organized+Programming;Teaching+people+to+code+since+2012;Building+quality+gates+for+agentic+coding&font=Fira+Code&center=true&vCenter=true&width=560&height=45&size=20&pause=1000&color=36BCF7)](https://hexlet.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Co-founder+of+Hexlet;Co-founder+of+Sphericon;Author+of+Organized+Programming;Teaching+people+to+code+since+2012;Building+quality+gates+for+agentic+coding&font=Fira+Code&center=true&vCenter=true&width=560&height=45&size=20&pause=1000&color=36BCF7)](https://hexlet.io)
 
 [![YouTube](https://img.shields.io/badge/YouTube-mokevnin-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@mokevnin)
 [![Telegram](https://img.shields.io/badge/Telegram-Organized_Programming-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/orgprog)
