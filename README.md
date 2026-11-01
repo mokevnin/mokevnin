@@ -25,7 +25,7 @@
     <img height="170" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=mokevnin&show_icons=true&theme=transparent" alt="Kirill's GitHub stats" />
   </a>
   <a href="https://github.com/mokevnin">
-    <img height="170" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=mokevnin&layout=compact&theme=transparent" alt="Top languages" />
+    <img height="170" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=mokevnin&layout=compact&theme=transparent&hide=html" alt="Top languages" />
   </a>
 </p>
 
