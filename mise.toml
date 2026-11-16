@@ -6,10 +6,10 @@
 minimum_release_age = "7d"
 
 [tools]
-"aqua:jdx/jactionlint" = "2.4.0"
+"aqua:jdx/jactionlint" = "2.5.0"
 lychee = "0.24.2"
 rumdl = "0.3.2"
-typos = "1.51.1"
+typos = "1.52.0"
 
 [tasks.check]
 description = "Run every offline check (CI gate)"
